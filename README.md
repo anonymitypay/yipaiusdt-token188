@@ -15,11 +15,13 @@
 - 支付方式	跳转
 - 支付处理路由	/pay/yipay（每个系统的易支付处理路由不一样，请根据你系统默认的易支付路由填写）
  - 商户ID, 商户密钥  请到[TOKEN188](https://www.token188.com/) 官网注册获取.
+ 
 <p align="center">
 <img src="https://www.token188.com/git/epay.jpg"/>
 </p>
-## 然后进去token188管理后台填写你需要收款的usdt地址和进行其他设置
-1. 注册[TOKEN188商户中心](https://mar.token188.com/)
+
+### 然后进去token188管理后台填写你需要收款的usdt地址和进行其他设置
+1. 注册[TOKEN188商户中心](https://mar.token188.com)
 2. 在商户中心添加需要监听的地址
 3. 根据使用的不同面板进行回调设置(回调地址填写你网站的域名)
 ### 产品介绍
